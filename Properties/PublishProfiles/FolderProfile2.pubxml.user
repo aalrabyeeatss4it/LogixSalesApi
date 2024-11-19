@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\Fawaz\Downloads\apisale\LogixApi-sales\bin\Release\net6.0\publish\</_PublishTargetUrl>
+    <History>True|2024-02-21T06:38:08.0508023Z;True|2024-02-14T08:24:00.6386514+03:00;True|2024-02-12T15:54:20.8076924+03:00;True|2024-02-11T10:01:27.3226823+03:00;True|2024-02-01T10:50:20.5476596+03:00;True|2024-01-31T16:56:52.3904806+03:00;True|2024-01-30T09:53:31.7655840+03:00;True|2024-01-28T08:49:01.5978700+03:00;True|2024-01-24T16:15:37.4383509+03:00;True|2024-01-23T08:30:33.9189116+03:00;True|2024-01-23T08:30:13.9372427+03:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

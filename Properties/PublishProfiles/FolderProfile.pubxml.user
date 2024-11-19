@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\SS4IT\Desktop\api_puplish12_21</_PublishTargetUrl>
+    <History>False|2024-01-23T05:29:56.1100267Z;False|2023-12-27T17:56:55.1304511+03:00;True|2023-12-21T21:52:35.6681403+03:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

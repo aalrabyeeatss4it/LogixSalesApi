@@ -1,0 +1,77 @@
+﻿<Properties StartupConfiguration="{87B72DEB-E253-44E7-9D51-3D12FC90EA70}|Default" GitUserInfo="UsingMD">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.LogixApi-v04 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Repositories/Sales/WhItemRepository.cs">
+    <Files>
+      <File FileName="Program.cs" />
+      <File FileName="Controllers/Sales/WhItemsController.cs" />
+      <File FileName="Models/Sales/WhItemsVw.cs" />
+      <File FileName="Models/Sales/WhInventoriesVw.cs" />
+      <File FileName="Models/Sales/WhItem.cs" />
+      <File FileName="Models/Sales/WhInventory.cs" />
+      <File FileName="EntityConfigs/Sales/IWhInventoriesVwConfig.cs" />
+      <File FileName="EntityConfigs/Sales/SAL_Transactions_PaymentConfig.cs" />
+      <File FileName="EntityConfigs/Sales/WhInventoryConfig.cs" />
+      <File FileName="DbContexts/ApplicationDbContext.cs" />
+      <File FileName="EntityConfigs/Sales/WhItemsInventoryVwConfig.cs" />
+      <File FileName="DbContexts/UserDbContextFactory.cs" />
+      <File FileName="IRepositories/Sales/IWhInventoryRepository.cs" />
+      <File FileName="IRepositories/Sales/IWhItemsInventoryVwRepository.cs" />
+      <File FileName="Repositories/Sales/WhInventoryRepository.cs" />
+      <File FileName="Repositories/Sales/SysCustomerTypeRepository.cs" />
+      <File FileName="Repositories/Sales/SysCustomerRepository.cs" />
+      <File FileName="Repositories/Sales/SalTransactionsPaymentRepository.cs" />
+      <File FileName="Repositories/Sales/SalTransactionsProductRepository.cs" />
+      <File FileName="Repositories/Sales/SalPaymentTermRepository.cs" />
+      <File FileName="Repositories/Sales/InvestBranchRepository.cs" />
+      <File FileName="Repositories/Sales/SalTransactionRepository.cs" />
+      <File FileName="Repositories/Sales/SysBranchRepository.cs" />
+      <File FileName="Repositories/Sales/WhItemRepository.cs" Line="86" Column="55" />
+      <File FileName="Repositories/AccFacilityRepository.cs" />
+      <File FileName="Controllers/Sales/WhInventoryController.cs" />
+      <File FileName="Controllers/UsersAuthController.cs" />
+      <File FileName="Repositories/UsersRepository.cs" />
+      <File FileName="EntityConfigs/AccFacilitiesVwConfig.cs" />
+      <File FileName="IRepositories/IUsersRepository.cs" />
+      <File FileName="IRepositories/IAccFacilitiesVwRepository.cs" />
+      <File FileName="Repositories/AccFacilitiesVwRepository.cs" />
+      <File FileName="appsettings.json" />
+      <File FileName="Helpers/Result.cs" />
+      <File FileName="EntityConfigs/SysUserConfig.cs" />
+      <File FileName="EntityConfigs/AccFacilityConfig.cs" />
+      <File FileName="EntityConfigs/Sales/WhItemsVwConfig.cs" />
+      <File FileName="Models/Sales/WhItemsInventoryVw.cs" />
+      <File FileName="Models/Sales/SalPosSetting.cs" />
+      <File FileName="Controllers/MasterController.cs" />
+      <File FileName="Controllers/Sales/SysCustomerTypeController.cs" />
+      <File FileName="Controllers/Sales/SysCustomerController.cs" />
+      <File FileName="ViewModels/Sales/SysCustomerVM.cs" />
+      <File FileName="Controllers/Sales/SalTransactionsDiscountController.cs" />
+      <File FileName="Controllers/Sales/SalTransactionController.cs" />
+      <File FileName="IRepositories/Sales/ISalTransactionRepository.cs" />
+      <File FileName="Models/Sales/SalTransaction.cs" />
+      <File FileName="Models/Sales/SalTransactionsVw.cs" />
+      <File FileName="Repositories/Sales/SalPosCloseCashRepository.cs" />
+      <File FileName="IRepositories/Sales/ISalTransactionsProductRepository.cs" />
+      <File FileName="Repositories/Sales/SalPosSettingRepository.cs" />
+      <File FileName="Repositories/Sales/SalPosUserRepository.cs" />
+      <File FileName="Repositories/Sales/SysLookupDataRepository.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="LogixApi-sales" selected="True">
+            <Node name="LogixApi-v04">
+              <Node name="Repositories" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>

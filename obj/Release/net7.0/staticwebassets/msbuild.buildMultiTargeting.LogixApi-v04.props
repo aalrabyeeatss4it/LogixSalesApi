@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/LogixApi-v04.props" />
+</Project>
