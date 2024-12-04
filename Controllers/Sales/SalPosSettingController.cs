@@ -50,9 +50,9 @@ namespace LogixApi_v02.Controllers.Sales
                 var SalesPointList = getSalesPoint.ToList();
 
                 var getAll = await salPosSettingRepository
-             .GetAllOther<SalPosSettingVw>(s => s.FacilityId == faId);
+             .GetAllOther<SalPosSettingVw>(s => s.FacilityId == faId && s.IsDeleted == false);
 
-                AccFacilitiesVw facilitiesVw=await facilitiesVwRepository.GetFirst(d=>d.FacilityId==faId);
+                AccFacilitiesVw facilitiesVw = await facilitiesVwRepository.GetFirst(d => d.FacilityId == faId );
 
 
                 var getDetails = getAll.Where(d => SalesPointList.Any(sp => sp.PosId == d.Id)).Select(d => new SalPosSettingVM
@@ -65,12 +65,12 @@ namespace LogixApi_v02.Controllers.Sales
                     FacilityId = d.FacilityId,
                     CustomerName = d.CustomerName,
                     Name = d.Name,
-                    FacilityName=facilitiesVw.FacilityName,
+                    FacilityName = facilitiesVw.FacilityName,
                     FacilityName2 = facilitiesVw.FacilityName2,
                     FacilityMobile = facilitiesVw.FacilityMobile,
-                    Address=facilitiesVw.FacilityAddress,
-                    VatNumber=facilitiesVw.VatNumber,
-                    
+                    Address = facilitiesVw.FacilityAddress,
+                    VatNumber = facilitiesVw.VatNumber,
+
                     BankAccountId = d.BankAccountId,
                     CashAccountId = d.CashAccountId,
                     LnkAccounting = d.LnkAccounting,
@@ -125,31 +125,22 @@ namespace LogixApi_v02.Controllers.Sales
         }
 
         [HttpPost("insertsalPosCloseCash")]
-
-        public async Task<Result<SalPosCloseCash>> InsertsalPosCloseCash( SalPosCloseCash salPosCloseCash)
+        public async Task<Result<SalPosCloseCash>> InsertsalPosCloseCash(SalPosCloseCash salPosCloseCash)
         {
-
-
             try
             {
                 var userID = long.Parse(User.FindFirst("USER_ID")?.Value);
                 salPosCloseCash.CreatedBy = userID;
-
-                await salPosCloseCashRepository.AddISalPosCloseCash( salPosCloseCash);
-
-
-
+                await salPosCloseCashRepository.AddISalPosCloseCash(salPosCloseCash);
                 return Result<SalPosCloseCash>.Sucess(salPosCloseCash, "");
-
             }
             catch (Exception ex)
             {
-
                 return Result<SalPosCloseCash>.Fail($"Exception: {ex.Message}");
             }
         }
 
     }
 
-}     
+}
 

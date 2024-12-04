@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogixApi-v04", "LogixApi-v04.csproj", "{87B72DEB-E253-44E7-9D51-3D12FC90EA70}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartPosApi", "..\..\..\SmartCode\SmartRepos\SmartPosApi\SmartPosApi.csproj", "{39522FE3-1F67-487D-B094-7EF960F49C61}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{87B72DEB-E253-44E7-9D51-3D12FC90EA70}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87B72DEB-E253-44E7-9D51-3D12FC90EA70}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87B72DEB-E253-44E7-9D51-3D12FC90EA70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39522FE3-1F67-487D-B094-7EF960F49C61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39522FE3-1F67-487D-B094-7EF960F49C61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39522FE3-1F67-487D-B094-7EF960F49C61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39522FE3-1F67-487D-B094-7EF960F49C61}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
