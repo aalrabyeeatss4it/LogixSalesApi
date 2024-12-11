@@ -146,7 +146,42 @@ namespace LogixApi_v02.Repositories
         //    }
         //    return Facility;
         //}
+        private string Decrypt(string encryptedValue)
+        {
+            try
+            {
 
+                var config = new ConfigurationBuilder()
+                                .AddJsonFile("appsettings.json")
+                                 .Build();
+
+
+                var key = config["AppSettings:EncryptionKey"];
+                //var key = "Log@#$@#$##@@@#$@@!@#$%%##8874542##$%";
+                if (string.IsNullOrEmpty(key))
+                {
+                    throw new Exception("لم يتم الحصول على المفتاح من إعدادات التطبيق.");
+                }
+
+                using (var aes = Aes.Create())
+                {
+                    aes.Key = Encoding.UTF8.GetBytes(key.PadRight(32).Substring(0, 32));
+                    aes.IV = new byte[16];
+
+                    using (var decryptor = aes.CreateDecryptor(aes.Key, aes.IV))
+                    {
+                        var encryptedBytes = Convert.FromBase64String(encryptedValue);
+                        var decryptedBytes = decryptor.TransformFinalBlock(encryptedBytes, 0, encryptedBytes.Length);
+                        return Encoding.UTF8.GetString(decryptedBytes);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"خطأ أثناء فك التشفير: {ex.Message}");
+                return null;
+            }
+        }
         public async Task<MembersEntity?> GetMember(string memberId)
         {
             try
@@ -158,7 +193,7 @@ namespace LogixApi_v02.Repositories
                     {
                         ApiUrl = mobileMember.ApiUrl ?? "",
                         DBName = mobileMember.Dbname ?? "",
-                        DBPassword = mobileMember.Dbpassword ?? "",
+                        DBPassword = Decrypt(mobileMember.Dbpassword) ?? "", // فك تشفير DBPassword
                         DBUrl = mobileMember.Dburl ?? "",
                         DBUsername = mobileMember.Dbusername ?? "",
                         ErpUrl = mobileMember.ErpUrl ?? "",
