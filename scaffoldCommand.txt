@@ -1,0 +1,1 @@
+﻿Scaffold-DbContext "server=DESKTOP-5C96VC9\SQLEXPRESS;database=Logix2023_all;Trusted_Connection=yes;TrustServerCertificate=True;MultipleActiveResultSets=true;" Microsoft.EntityFrameworkCore.SqlServer -o TestModels -Tables Sys_Target_Employee_VW -DataAnnotations

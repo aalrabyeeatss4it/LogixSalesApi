@@ -1,0 +1,44 @@
+﻿<Properties StartupConfiguration="{87B72DEB-E253-44E7-9D51-3D12FC90EA70}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.LogixApi-v04 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="IRepositories/Sales/IWhItemsInventoryVwRepository.cs">
+    <Files>
+      <File FileName="IRepositories/Sales/IWhItemRepository.cs" />
+      <File FileName="Repositories/Sales/WhItemRepository.cs" />
+      <File FileName="Models/Sales/WhItemsVw.cs" />
+      <File FileName="EntityConfigs/Sales/WhItemsVwConfig.cs" />
+      <File FileName="DbContexts/UserDbContextFactory.cs" />
+      <File FileName="DbContexts/ApplicationDbContext.cs" />
+      <File FileName="Controllers/Sales/SalTransactionController.cs" />
+      <File FileName="Controllers/Sales/WhItemsController.cs" />
+      <File FileName="Models/Sales/SalPosUsersVw.cs" />
+      <File FileName="IRepositories/Sales/IWhItemsInventoryVwRepository.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="LogixApi-v02">
+            <Node name="LogixApi-v04">
+              <Node name="IRepositories" expanded="True">
+                <Node name="Sales" expanded="True">
+                  <Node name="IWhItemsInventoryVwRepository.cs" selected="True" />
+                </Node>
+              </Node>
+              <Node name="Models" expanded="True">
+                <Node name="Sales" expanded="True" />
+              </Node>
+              <Node name="Repositories" expanded="True">
+                <Node name="Sales" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>

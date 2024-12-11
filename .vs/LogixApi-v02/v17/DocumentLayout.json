@@ -1,0 +1,280 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GitHub\\apiApp\\LogixSalesApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{87B72DEB-E253-44E7-9D51-3D12FC90EA70}|LogixApi-v04.csproj|d:\\github\\apiapp\\logixsalesapi\\controllers\\sales\\salpossettingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87B72DEB-E253-44E7-9D51-3D12FC90EA70}|LogixApi-v04.csproj|solutionrelative:controllers\\sales\\salpossettingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87B72DEB-E253-44E7-9D51-3D12FC90EA70}|LogixApi-v04.csproj|d:\\github\\apiapp\\logixsalesapi\\viewmodels\\sales\\salpossettingvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87B72DEB-E253-44E7-9D51-3D12FC90EA70}|LogixApi-v04.csproj|solutionrelative:viewmodels\\sales\\salpossettingvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87B72DEB-E253-44E7-9D51-3D12FC90EA70}|LogixApi-v04.csproj|d:\\github\\apiapp\\logixsalesapi\\viewmodels\\sales\\salespointsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87B72DEB-E253-44E7-9D51-3D12FC90EA70}|LogixApi-v04.csproj|solutionrelative:viewmodels\\sales\\salespointsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87B72DEB-E253-44E7-9D51-3D12FC90EA70}|LogixApi-v04.csproj|d:\\github\\apiapp\\logixsalesapi\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87B72DEB-E253-44E7-9D51-3D12FC90EA70}|LogixApi-v04.csproj|solutionrelative:repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87B72DEB-E253-44E7-9D51-3D12FC90EA70}|LogixApi-v04.csproj|d:\\github\\apiapp\\logixsalesapi\\irepositories\\iaccfacilitiesvwrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87B72DEB-E253-44E7-9D51-3D12FC90EA70}|LogixApi-v04.csproj|solutionrelative:irepositories\\iaccfacilitiesvwrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87B72DEB-E253-44E7-9D51-3D12FC90EA70}|LogixApi-v04.csproj|d:\\github\\apiapp\\logixsalesapi\\repositories\\syssystemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87B72DEB-E253-44E7-9D51-3D12FC90EA70}|LogixApi-v04.csproj|solutionrelative:repositories\\syssystemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87B72DEB-E253-44E7-9D51-3D12FC90EA70}|LogixApi-v04.csproj|d:\\github\\apiapp\\logixsalesapi\\repositories\\accfacilitiesvwrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87B72DEB-E253-44E7-9D51-3D12FC90EA70}|LogixApi-v04.csproj|solutionrelative:repositories\\accfacilitiesvwrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87B72DEB-E253-44E7-9D51-3D12FC90EA70}|LogixApi-v04.csproj|d:\\github\\apiapp\\logixsalesapi\\controllers\\sales\\facilitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87B72DEB-E253-44E7-9D51-3D12FC90EA70}|LogixApi-v04.csproj|solutionrelative:controllers\\sales\\facilitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87B72DEB-E253-44E7-9D51-3D12FC90EA70}|LogixApi-v04.csproj|d:\\github\\apiapp\\logixsalesapi\\controllers\\usersauthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87B72DEB-E253-44E7-9D51-3D12FC90EA70}|LogixApi-v04.csproj|solutionrelative:controllers\\usersauthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87B72DEB-E253-44E7-9D51-3D12FC90EA70}|LogixApi-v04.csproj|d:\\github\\apiapp\\logixsalesapi\\repositories\\sales\\salposclosecashrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87B72DEB-E253-44E7-9D51-3D12FC90EA70}|LogixApi-v04.csproj|solutionrelative:repositories\\sales\\salposclosecashrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87B72DEB-E253-44E7-9D51-3D12FC90EA70}|LogixApi-v04.csproj|d:\\github\\apiapp\\logixsalesapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87B72DEB-E253-44E7-9D51-3D12FC90EA70}|LogixApi-v04.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87B72DEB-E253-44E7-9D51-3D12FC90EA70}|LogixApi-v04.csproj|d:\\github\\apiapp\\logixsalesapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{87B72DEB-E253-44E7-9D51-3D12FC90EA70}|LogixApi-v04.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87B72DEB-E253-44E7-9D51-3D12FC90EA70}|LogixApi-v04.csproj|d:\\github\\apiapp\\logixsalesapi\\irepositories\\sales\\isalposclosecashrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87B72DEB-E253-44E7-9D51-3D12FC90EA70}|LogixApi-v04.csproj|solutionrelative:irepositories\\sales\\isalposclosecashrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87B72DEB-E253-44E7-9D51-3D12FC90EA70}|LogixApi-v04.csproj|d:\\github\\apiapp\\logixsalesapi\\dbcontexts\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87B72DEB-E253-44E7-9D51-3D12FC90EA70}|LogixApi-v04.csproj|solutionrelative:dbcontexts\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87B72DEB-E253-44E7-9D51-3D12FC90EA70}|LogixApi-v04.csproj|d:\\github\\apiapp\\logixsalesapi\\dbcontexts\\userdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87B72DEB-E253-44E7-9D51-3D12FC90EA70}|LogixApi-v04.csproj|solutionrelative:dbcontexts\\userdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cf577b8c-4134-11d2-83e5-00c04f9902c1}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SalPosSettingVM.cs",
+              "DocumentMoniker": "D:\\GitHub\\apiApp\\LogixSalesApi\\ViewModels\\Sales\\SalPosSettingVM.cs",
+              "RelativeDocumentMoniker": "ViewModels\\Sales\\SalPosSettingVM.cs",
+              "ToolTip": "D:\\GitHub\\apiApp\\LogixSalesApi\\ViewModels\\Sales\\SalPosSettingVM.cs",
+              "RelativeToolTip": "ViewModels\\Sales\\SalPosSettingVM.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAUwBYAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T06:37:01.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "D:\\GitHub\\apiApp\\LogixSalesApi\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\GenericRepository.cs",
+              "ToolTip": "D:\\GitHub\\apiApp\\LogixSalesApi\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "Repositories\\GenericRepository.cs",
+              "ViewState": "AQIAAIQAAAAAAAAAAAAQwJEAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T06:33:32.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SysSystemRepository.cs",
+              "DocumentMoniker": "D:\\GitHub\\apiApp\\LogixSalesApi\\Repositories\\SysSystemRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\SysSystemRepository.cs",
+              "ToolTip": "D:\\GitHub\\apiApp\\LogixSalesApi\\Repositories\\SysSystemRepository.cs",
+              "RelativeToolTip": "Repositories\\SysSystemRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T06:28:28.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SalesPointsVM.cs",
+              "DocumentMoniker": "D:\\GitHub\\apiApp\\LogixSalesApi\\ViewModels\\Sales\\SalesPointsVM.cs",
+              "RelativeDocumentMoniker": "ViewModels\\Sales\\SalesPointsVM.cs",
+              "ToolTip": "D:\\GitHub\\apiApp\\LogixSalesApi\\ViewModels\\Sales\\SalesPointsVM.cs",
+              "RelativeToolTip": "ViewModels\\Sales\\SalesPointsVM.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAgwBQAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T06:23:37.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AccFacilitiesVwRepository.cs",
+              "DocumentMoniker": "D:\\GitHub\\apiApp\\LogixSalesApi\\Repositories\\AccFacilitiesVwRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\AccFacilitiesVwRepository.cs",
+              "ToolTip": "D:\\GitHub\\apiApp\\LogixSalesApi\\Repositories\\AccFacilitiesVwRepository.cs",
+              "RelativeToolTip": "Repositories\\AccFacilitiesVwRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T06:18:07.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IAccFacilitiesVwRepository.cs",
+              "DocumentMoniker": "D:\\GitHub\\apiApp\\LogixSalesApi\\IRepositories\\IAccFacilitiesVwRepository.cs",
+              "RelativeDocumentMoniker": "IRepositories\\IAccFacilitiesVwRepository.cs",
+              "ToolTip": "D:\\GitHub\\apiApp\\LogixSalesApi\\IRepositories\\IAccFacilitiesVwRepository.cs",
+              "RelativeToolTip": "IRepositories\\IAccFacilitiesVwRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T06:17:42.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FacilityController.cs",
+              "DocumentMoniker": "D:\\GitHub\\apiApp\\LogixSalesApi\\Controllers\\Sales\\FacilityController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Sales\\FacilityController.cs",
+              "ToolTip": "D:\\GitHub\\apiApp\\LogixSalesApi\\Controllers\\Sales\\FacilityController.cs",
+              "RelativeToolTip": "Controllers\\Sales\\FacilityController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T06:12:11.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UsersAuthController.cs",
+              "DocumentMoniker": "D:\\GitHub\\apiApp\\LogixSalesApi\\Controllers\\UsersAuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsersAuthController.cs",
+              "ToolTip": "D:\\GitHub\\apiApp\\LogixSalesApi\\Controllers\\UsersAuthController.cs",
+              "RelativeToolTip": "Controllers\\UsersAuthController.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAA1wDEAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T04:55:18.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\GitHub\\apiApp\\LogixSalesApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\GitHub\\apiApp\\LogixSalesApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T04:50:36.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SalPosCloseCashRepository.cs",
+              "DocumentMoniker": "D:\\GitHub\\apiApp\\LogixSalesApi\\Repositories\\Sales\\SalPosCloseCashRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Sales\\SalPosCloseCashRepository.cs",
+              "ToolTip": "D:\\GitHub\\apiApp\\LogixSalesApi\\Repositories\\Sales\\SalPosCloseCashRepository.cs",
+              "RelativeToolTip": "Repositories\\Sales\\SalPosCloseCashRepository.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAA1wBYAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T07:27:21.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SalPosSettingController.cs",
+              "DocumentMoniker": "D:\\GitHub\\apiApp\\LogixSalesApi\\Controllers\\Sales\\SalPosSettingController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Sales\\SalPosSettingController.cs",
+              "ToolTip": "D:\\GitHub\\apiApp\\LogixSalesApi\\Controllers\\Sales\\SalPosSettingController.cs",
+              "RelativeToolTip": "Controllers\\Sales\\SalPosSettingController.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAtwDQAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T07:27:12.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ISalPosCloseCashRepository.cs",
+              "DocumentMoniker": "D:\\GitHub\\apiApp\\LogixSalesApi\\IRepositories\\Sales\\ISalPosCloseCashRepository.cs",
+              "RelativeDocumentMoniker": "IRepositories\\Sales\\ISalPosCloseCashRepository.cs",
+              "ToolTip": "D:\\GitHub\\apiApp\\LogixSalesApi\\IRepositories\\Sales\\ISalPosCloseCashRepository.cs",
+              "RelativeToolTip": "IRepositories\\Sales\\ISalPosCloseCashRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T07:26:17.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\GitHub\\apiApp\\LogixSalesApi\\DbContexts\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "DbContexts\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\GitHub\\apiApp\\LogixSalesApi\\DbContexts\\ApplicationDbContext.cs",
+              "RelativeToolTip": "DbContexts\\ApplicationDbContext.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAA2wD4AAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T07:25:17.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserDbContextFactory.cs",
+              "DocumentMoniker": "D:\\GitHub\\apiApp\\LogixSalesApi\\DbContexts\\UserDbContextFactory.cs",
+              "RelativeDocumentMoniker": "DbContexts\\UserDbContextFactory.cs",
+              "ToolTip": "D:\\GitHub\\apiApp\\LogixSalesApi\\DbContexts\\UserDbContextFactory.cs",
+              "RelativeToolTip": "DbContexts\\UserDbContextFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T07:25:16.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\GitHub\\apiApp\\LogixSalesApi\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\GitHub\\apiApp\\LogixSalesApi\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACcAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-22T10:59:48.158Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
