@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "fquGX8r/60Aa61X7Fk41J0QqD+AJ+FSQLOnubRYg77U=",
+  "Hash": "kK9b051eyXXvWRW+1vMeV+V3Km+Miq9lH1/pfiQzHYs=",
   "Source": "LogixApi-v04",
   "BasePath": "_content/LogixApi-v04",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

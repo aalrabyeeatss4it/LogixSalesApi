@@ -9,6 +9,7 @@ using Microsoft.IdentityModel.Tokens;
 using System.Data;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
+using System.Security.Cryptography;
 using System.Text;
 
 namespace LogixApi_v02.Repositories
@@ -130,39 +131,17 @@ namespace LogixApi_v02.Repositories
                 DBUrl = "."
             };
         }
-        //public Facilities getCompany(MembersEntity member)
-        //{
-        //    Facility = new Facilities
-        //    {
-        //        Facility_Address = "الرياض - شارع الرياض",
-        //        Facility_Phone = "006773127769",
-        //        Facility_Logo = "/images/logoColor.png",
-        //        Facility_Name2 = "نظام لجان تك",
-        //        Facility_Name = "Lijan Tech"
-        //    };
-        //    if (Facility == null)
-        //    {
-        //        return null;
-        //    }
-        //    return Facility;
-        //}
+    
         private string Decrypt(string encryptedValue)
         {
             try
             {
-
-                var config = new ConfigurationBuilder()
-                                .AddJsonFile("appsettings.json")
-                                 .Build();
-
-
+                var config = new ConfigurationBuilder().AddJsonFile("appsettings.json").Build();
                 var key = config["AppSettings:EncryptionKey"];
-                //var key = "Log@#$@#$##@@@#$@@!@#$%%##8874542##$%";
                 if (string.IsNullOrEmpty(key))
                 {
                     throw new Exception("لم يتم الحصول على المفتاح من إعدادات التطبيق.");
                 }
-
                 using (var aes = Aes.Create())
                 {
                     aes.Key = Encoding.UTF8.GetBytes(key.PadRight(32).Substring(0, 32));
@@ -182,7 +161,7 @@ namespace LogixApi_v02.Repositories
                 return null;
             }
         }
-        public async Task<MembersEntity?> GetMember(string memberId)
+        public async Task<MembersEntity> GetMember(string memberId)
         {
             try
             {
@@ -237,38 +216,6 @@ namespace LogixApi_v02.Repositories
             }
         }
 
-        //public MembersEntity GetMemberr(string memberId)
-        //{
-        //    MembersEntity memberData = null;
-        //    //return $"server={server};database={database};UID={username};PWD={password};Max Pool Size=1000;";
-
-        //    //return TestMember();
-        //    if (TableExists("Sys_Mobile_Members"))
-        //    {
-        //        Connect(Comm =>
-        //        {
-        //            Comm.CommandType = CommandType.Text;
-        //            Comm.CommandText = "Select * from Sys_Mobile_Members where Member_ID=@Member_ID AND IsDeleted = 0";
-        //            Comm.Parameters.AddWithValue("@Member_ID", memberId);
-        //            var memberReader = Comm.ExecuteReader();
-        //            while (memberReader.Read())
-        //            {
-        //                memberData = new MembersEntity
-        //                {
-        //                    Member_ID = memberReader["Member_ID"].ToString(),
-        //                    ApiUrl = memberReader["Api_URL"].ToString(),
-        //                    ErpUrl = memberReader["ERP_URL"].ToString(),
-        //                    DBName = memberReader["DBName"].ToString(),
-        //                    DBUsername = memberReader["DBUsername"].ToString(),
-        //                    DBPassword = memberReader["DBPassword"].ToString(),
-        //                    DBUrl = memberReader["DBUrl"].ToString()
-        //                };
-        //            }
-        //            return true;
-        //        });
-        //    }
-        //    return memberData;
-        //}
 
     }
 }

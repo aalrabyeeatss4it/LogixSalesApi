@@ -30,6 +30,20 @@ namespace LogixApi_v02.Repositories.Sales
             return latestTransaction.Id; // Return null if not found
         }
 
+        public async Task<bool> IsInvoiceCodeExistsAsync(int pos, string invoiceDate, decimal invoiceTotal, string invoiceCode)
+        {
+            var latestTransaction = await _context.SalTransactionsVws
+                .Where(t => 
+                t.PosId == pos 
+                //&& t.Date1 != invoiceDate
+                //&& t.Total != invoiceTotal
+                && t.Code == invoiceCode
+                )
+                .OrderByDescending(t => t.Id)
+                .FirstOrDefaultAsync();
+            return (latestTransaction != null && latestTransaction.Id != null); // Return null if not found
+        }
+
 
         public string GenerateToken(string userId)
         {
@@ -161,13 +175,9 @@ namespace LogixApi_v02.Repositories.Sales
 
         }
 
-        public async Task<EmployeeTarget> GetEmployeeTarget(long facilityId, string empCode,
-            int transTypeId, string fromDate, string toDate)
+        public async Task<EmployeeTarget> GetEmployeeTarget(long facilityId, string empCode,int transTypeId, string fromDate, string toDate)
         {
-
             List<EmployeeTarget> res3 = new List<EmployeeTarget>();
-           
-
             try
             {
                 var queryResult = _context.SalTransactionsVws

@@ -12,6 +12,7 @@ namespace LogixApi_v02.IRepositories.Sales
         public string GenerateToken(string userId);
 
         Task<long> GetLatestTransactionIdAsync(int posId);
+        Task<bool> IsInvoiceCodeExistsAsync(int pos, string invoiceDate, decimal invoiceTotal, string invoiceCode);
 
     }
 

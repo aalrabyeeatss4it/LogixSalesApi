@@ -4,6 +4,7 @@ using LogixApi_v02.IRepositories;
 using LogixApi_v02.IRepositories.Sales;
 using LogixApi_v02.Models;
 using LogixApi_v02.Models.Sales;
+using LogixApi_v02.Repositories.Sales;
 using LogixApi_v02.ViewModels;
 using LogixApi_v02.ViewModels.sales;
 using LogixApi_v02.ViewModels.Sales;
@@ -35,18 +36,21 @@ namespace LogixApi_v02.Controllers.Sales
         private readonly ISalTransactionsPaymentRepository repositoryTransPayment;
         private readonly IPermissionHelper permission;
         private readonly IUsersRepository userRepository;
+        private readonly ISalTransCardPaymentRepository cardPaymentRepository;
+        private string DB;
 
         public SalTransactionController(ISalTransactionRepository repository,
-               ISalTransactionsProductRepository productRepository,
+            ISalTransactionsProductRepository productRepository,
                ISysCustomerRepository customrepository,
                IWhItemRepository whItemRepository,
 
-            IInvestBranchRepository investBranchRepository,
-            IWhInventoryRepository whInventoryRepository,
-            ISalPaymentTermRepository salPaymentTermRepository,
-            IUsersRepository userRepository,
-            ISalTransactionsPaymentRepository repositoryTransPayment,
-            IPermissionHelper permission
+                IInvestBranchRepository investBranchRepository,
+                IWhInventoryRepository whInventoryRepository,
+                ISalPaymentTermRepository salPaymentTermRepository,
+                IUsersRepository userRepository,
+                ISalTransactionsPaymentRepository repositoryTransPayment,
+                ISalTransCardPaymentRepository cardPaymentRepository,
+                IPermissionHelper permission
 
             )
         {
@@ -59,12 +63,41 @@ namespace LogixApi_v02.Controllers.Sales
             this.salPaymentTermRepository = salPaymentTermRepository;
             this.userRepository = userRepository;
             this.repositoryTransPayment = repositoryTransPayment;
+            this.cardPaymentRepository = cardPaymentRepository;
             this.permission = permission;
         }
 
+        //private async void InitDB()
+        //{
+        //    if (User.FindFirst("MemberId")?.Value == null)
+        //    {
+        //        DB = DatabaseRepository.CreateConnectionString(User.FindFirst("DBUrl")?.Value, User.FindFirst("DBName")?.Value, User.FindFirst("DBUsername")?.Value, User.FindFirst("DBPassword")?.Value);
+        //    }
+        //    else
+        //    {
+        //        cardPaymentRepository = new SalTransCardPaymentRepository(builder.Configuration.GetConnectionString("DefaultConnection"));
+        //        var memberId = User.FindFirst("MemberId")?.Value.ToString();
+        //        var member = await cardPaymentRepository.GetMember(memberId);
+        //        DB = DatabaseRepository.CreateConnectionString(member.DBUrl, member.DBName, member.DBUsername, member.DBPassword);
+        //    }
+        //    cardPaymentRepository = new SalTransCardPaymentRepository(DB);
+        //}
 
+        [HttpPost("addCardPayment")]
+        public async Task<Result<int>> AddCardPayment(NearpayTransactionReceipt receipt)
+        {
+            try
+            {
+                //InitDB();
+                var result = await cardPaymentRepository.AddTransPayment(receipt);
+                return Result<int>.Sucess(0,"");
+            }
+            catch (Exception ex) {
+                return Result<int>.Fail("Exception: "+ex.Message);
+            }
+        }
 
-        [HttpGet("getEmployeeTarget")]
+                [HttpGet("getEmployeeTarget")]
         public async Task<Result<EmployeeTarget>> getEmployeeTarget(int transTypeId, string? fromDate = "", string? toDate = "")
         {
             try
@@ -352,21 +385,31 @@ namespace LogixApi_v02.Controllers.Sales
         {
             try
             {
-             
-               
                 if (repository.Entities == null)
                 {
                     return Result<long>.Fail("There is no Data!!!");
-
-
                 }
-               
-                long id =await  repository.GetLatestTransactionIdAsync(pos);
+                long id = await repository.GetLatestTransactionIdAsync(pos);
                 return Result<long>.Sucess(id, "");
             }
             catch (Exception ex)
             {
                 return Result<long>.Fail($"Exception: {ex.Message}");
+            }
+
+        }
+
+        [HttpGet("IsInvoiceCodeExists")]
+        public async Task<Result<bool>> IsInvoiceCodeExists(int pos, string invoiceDate, decimal invoiceTotal, string invoiceCode)
+        {
+            try
+            {
+                bool isExists = await repository.IsInvoiceCodeExistsAsync(pos,invoiceDate,invoiceTotal,invoiceCode);
+                return Result<bool>.Sucess(isExists, "");
+            }
+            catch (Exception ex)
+            {
+                return Result<bool>.Fail($"Exception: {ex.Message}");
             }
 
         }
@@ -1630,10 +1673,6 @@ namespace LogixApi_v02.Controllers.Sales
             }
         }
 
-
-
-
-
         [HttpDelete("Delete/{id}")]
         public async Task<Result<SalTransaction>> Delete(int id)
         {
@@ -1665,10 +1704,7 @@ namespace LogixApi_v02.Controllers.Sales
             return (repository.Entities?.Any(e => e.Id == id)).GetValueOrDefault();
         }
 
-
-
         [HttpGet("GetBalance")]
-
         public async Task<Result<IEnumerable<WhItemsGetBalance>>> GetBalance(long ItemID,
             int UnitItemId, string ItemCode)
         {
@@ -1691,10 +1727,6 @@ namespace LogixApi_v02.Controllers.Sales
 
         }    
         
-        
-
-
-
         [HttpGet("qrimages/invoices/{imageName}")]
         public IActionResult GetImage(string imageName)
         {
@@ -1733,10 +1765,6 @@ namespace LogixApi_v02.Controllers.Sales
 
             }// Adjust the content type based on your image type
         }
-
-
-
-
 
         [HttpPost("Generate_Token")]
         public ActionResult Generate_Token()

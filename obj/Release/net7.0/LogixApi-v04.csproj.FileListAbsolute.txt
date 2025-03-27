@@ -140,3 +140,149 @@ D:\GitHub\apiApp\LogixSalesApi\obj\Release\net7.0\refint\LogixApi-v04.dll
 D:\GitHub\apiApp\LogixSalesApi\obj\Release\net7.0\LogixApi-v04.pdb
 D:\GitHub\apiApp\LogixSalesApi\obj\Release\net7.0\LogixApi-v04.genruntimeconfig.cache
 D:\GitHub\apiApp\LogixSalesApi\obj\Release\net7.0\ref\LogixApi-v04.dll
+D:\App Pos with Apis\LogixSalesApi\LogixSalesApi\bin\Release\net7.0\appsettings.Development.json
+D:\App Pos with Apis\LogixSalesApi\LogixSalesApi\bin\Release\net7.0\appsettings.json
+D:\App Pos with Apis\LogixSalesApi\LogixSalesApi\bin\Release\net7.0\LogixApi-v04.exe
+D:\App Pos with Apis\LogixSalesApi\LogixSalesApi\bin\Release\net7.0\LogixApi-v04.deps.json
+D:\App Pos with Apis\LogixSalesApi\LogixSalesApi\bin\Release\net7.0\LogixApi-v04.runtimeconfig.json
+D:\App Pos with Apis\LogixSalesApi\LogixSalesApi\bin\Release\net7.0\LogixApi-v04.dll
+D:\App Pos with Apis\LogixSalesApi\LogixSalesApi\bin\Release\net7.0\LogixApi-v04.pdb
+D:\App Pos with Apis\LogixSalesApi\LogixSalesApi\bin\Release\net7.0\Autofac.dll
+D:\App Pos with Apis\LogixSalesApi\LogixSalesApi\bin\Release\net7.0\Autofac.Extensions.DependencyInjection.dll
+D:\App Pos with Apis\LogixSalesApi\LogixSalesApi\bin\Release\net7.0\Humanizer.dll
+D:\App Pos with Apis\LogixSalesApi\LogixSalesApi\bin\Release\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\App Pos with Apis\LogixSalesApi\LogixSalesApi\bin\Release\net7.0\Microsoft.Data.SqlClient.dll
+D:\App Pos with Apis\LogixSalesApi\LogixSalesApi\bin\Release\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\App Pos with Apis\LogixSalesApi\LogixSalesApi\bin\Release\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\App Pos with Apis\LogixSalesApi\LogixSalesApi\bin\Release\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\App Pos with Apis\LogixSalesApi\LogixSalesApi\bin\Release\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\App Pos with Apis\LogixSalesApi\LogixSalesApi\bin\Release\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\App Pos with Apis\LogixSalesApi\LogixSalesApi\bin\Release\net7.0\Microsoft.Identity.Client.dll
+D:\App Pos with Apis\LogixSalesApi\LogixSalesApi\bin\Release\net7.0\Microsoft.IdentityModel.Abstractions.dll
+D:\App Pos with Apis\LogixSalesApi\LogixSalesApi\bin\Release\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\App Pos with Apis\LogixSalesApi\LogixSalesApi\bin\Release\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\App Pos with Apis\LogixSalesApi\LogixSalesApi\bin\Release\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\App Pos with Apis\LogixSalesApi\LogixSalesApi\bin\Release\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\App Pos with Apis\LogixSalesApi\LogixSalesApi\bin\Release\net7.0\Microsoft.IdentityModel.Tokens.dll
+D:\App Pos with Apis\LogixSalesApi\LogixSalesApi\bin\Release\net7.0\Microsoft.OpenApi.dll
+D:\App Pos with Apis\LogixSalesApi\LogixSalesApi\bin\Release\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\App Pos with Apis\LogixSalesApi\LogixSalesApi\bin\Release\net7.0\Newtonsoft.Json.dll
+D:\App Pos with Apis\LogixSalesApi\LogixSalesApi\bin\Release\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\App Pos with Apis\LogixSalesApi\LogixSalesApi\bin\Release\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\App Pos with Apis\LogixSalesApi\LogixSalesApi\bin\Release\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\App Pos with Apis\LogixSalesApi\LogixSalesApi\bin\Release\net7.0\System.Configuration.ConfigurationManager.dll
+D:\App Pos with Apis\LogixSalesApi\LogixSalesApi\bin\Release\net7.0\System.Drawing.Common.dll
+D:\App Pos with Apis\LogixSalesApi\LogixSalesApi\bin\Release\net7.0\System.IdentityModel.Tokens.Jwt.dll
+D:\App Pos with Apis\LogixSalesApi\LogixSalesApi\bin\Release\net7.0\System.Runtime.Caching.dll
+D:\App Pos with Apis\LogixSalesApi\LogixSalesApi\bin\Release\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\App Pos with Apis\LogixSalesApi\LogixSalesApi\bin\Release\net7.0\System.Security.Permissions.dll
+D:\App Pos with Apis\LogixSalesApi\LogixSalesApi\bin\Release\net7.0\System.Windows.Extensions.dll
+D:\App Pos with Apis\LogixSalesApi\LogixSalesApi\bin\Release\net7.0\TextToQRImagePackage.dll
+D:\App Pos with Apis\LogixSalesApi\LogixSalesApi\bin\Release\net7.0\zxing.dll
+D:\App Pos with Apis\LogixSalesApi\LogixSalesApi\bin\Release\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\App Pos with Apis\LogixSalesApi\LogixSalesApi\bin\Release\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\App Pos with Apis\LogixSalesApi\LogixSalesApi\bin\Release\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\App Pos with Apis\LogixSalesApi\LogixSalesApi\bin\Release\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\App Pos with Apis\LogixSalesApi\LogixSalesApi\bin\Release\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\App Pos with Apis\LogixSalesApi\LogixSalesApi\bin\Release\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\App Pos with Apis\LogixSalesApi\LogixSalesApi\bin\Release\net7.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\App Pos with Apis\LogixSalesApi\LogixSalesApi\bin\Release\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\App Pos with Apis\LogixSalesApi\LogixSalesApi\bin\Release\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\App Pos with Apis\LogixSalesApi\LogixSalesApi\bin\Release\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\App Pos with Apis\LogixSalesApi\LogixSalesApi\obj\Release\net7.0\LogixApi-v04.csproj.AssemblyReference.cache
+D:\App Pos with Apis\LogixSalesApi\LogixSalesApi\obj\Release\net7.0\LogixApi-v04.GeneratedMSBuildEditorConfig.editorconfig
+D:\App Pos with Apis\LogixSalesApi\LogixSalesApi\obj\Release\net7.0\LogixApi-v04.AssemblyInfoInputs.cache
+D:\App Pos with Apis\LogixSalesApi\LogixSalesApi\obj\Release\net7.0\LogixApi-v04.AssemblyInfo.cs
+D:\App Pos with Apis\LogixSalesApi\LogixSalesApi\obj\Release\net7.0\LogixApi-v04.csproj.CoreCompileInputs.cache
+D:\App Pos with Apis\LogixSalesApi\LogixSalesApi\obj\Release\net7.0\LogixApi-v04.MvcApplicationPartsAssemblyInfo.cs
+D:\App Pos with Apis\LogixSalesApi\LogixSalesApi\obj\Release\net7.0\LogixApi-v04.MvcApplicationPartsAssemblyInfo.cache
+D:\App Pos with Apis\LogixSalesApi\LogixSalesApi\obj\Release\net7.0\LogixApi-v04.sourcelink.json
+D:\App Pos with Apis\LogixSalesApi\LogixSalesApi\obj\Release\net7.0\staticwebassets.build.json
+D:\App Pos with Apis\LogixSalesApi\LogixSalesApi\obj\Release\net7.0\staticwebassets.development.json
+D:\App Pos with Apis\LogixSalesApi\LogixSalesApi\obj\Release\net7.0\staticwebassets\msbuild.LogixApi-v04.Microsoft.AspNetCore.StaticWebAssets.props
+D:\App Pos with Apis\LogixSalesApi\LogixSalesApi\obj\Release\net7.0\staticwebassets\msbuild.build.LogixApi-v04.props
+D:\App Pos with Apis\LogixSalesApi\LogixSalesApi\obj\Release\net7.0\staticwebassets\msbuild.buildMultiTargeting.LogixApi-v04.props
+D:\App Pos with Apis\LogixSalesApi\LogixSalesApi\obj\Release\net7.0\staticwebassets\msbuild.buildTransitive.LogixApi-v04.props
+D:\App Pos with Apis\LogixSalesApi\LogixSalesApi\obj\Release\net7.0\staticwebassets.pack.json
+D:\App Pos with Apis\LogixSalesApi\LogixSalesApi\obj\Release\net7.0\scopedcss\bundle\LogixApi-v04.styles.css
+D:\App Pos with Apis\LogixSalesApi\LogixSalesApi\obj\Release\net7.0\LogixApi.68F7A75A.Up2Date
+D:\App Pos with Apis\LogixSalesApi\LogixSalesApi\obj\Release\net7.0\LogixApi-v04.dll
+D:\App Pos with Apis\LogixSalesApi\LogixSalesApi\obj\Release\net7.0\refint\LogixApi-v04.dll
+D:\App Pos with Apis\LogixSalesApi\LogixSalesApi\obj\Release\net7.0\LogixApi-v04.pdb
+D:\App Pos with Apis\LogixSalesApi\LogixSalesApi\obj\Release\net7.0\LogixApi-v04.genruntimeconfig.cache
+D:\App Pos with Apis\LogixSalesApi\LogixSalesApi\obj\Release\net7.0\ref\LogixApi-v04.dll
+D:\ss4it\Repos\APIs\LogixSalesApi\bin\Release\net7.0\appsettings.Development.json
+D:\ss4it\Repos\APIs\LogixSalesApi\bin\Release\net7.0\appsettings.json
+D:\ss4it\Repos\APIs\LogixSalesApi\bin\Release\net7.0\LogixApi-v04.staticwebassets.endpoints.json
+D:\ss4it\Repos\APIs\LogixSalesApi\bin\Release\net7.0\LogixApi-v04.exe
+D:\ss4it\Repos\APIs\LogixSalesApi\bin\Release\net7.0\LogixApi-v04.deps.json
+D:\ss4it\Repos\APIs\LogixSalesApi\bin\Release\net7.0\LogixApi-v04.runtimeconfig.json
+D:\ss4it\Repos\APIs\LogixSalesApi\bin\Release\net7.0\LogixApi-v04.dll
+D:\ss4it\Repos\APIs\LogixSalesApi\bin\Release\net7.0\LogixApi-v04.pdb
+D:\ss4it\Repos\APIs\LogixSalesApi\bin\Release\net7.0\Autofac.dll
+D:\ss4it\Repos\APIs\LogixSalesApi\bin\Release\net7.0\Autofac.Extensions.DependencyInjection.dll
+D:\ss4it\Repos\APIs\LogixSalesApi\bin\Release\net7.0\Humanizer.dll
+D:\ss4it\Repos\APIs\LogixSalesApi\bin\Release\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\ss4it\Repos\APIs\LogixSalesApi\bin\Release\net7.0\Microsoft.Data.SqlClient.dll
+D:\ss4it\Repos\APIs\LogixSalesApi\bin\Release\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\ss4it\Repos\APIs\LogixSalesApi\bin\Release\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\ss4it\Repos\APIs\LogixSalesApi\bin\Release\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\ss4it\Repos\APIs\LogixSalesApi\bin\Release\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\ss4it\Repos\APIs\LogixSalesApi\bin\Release\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\ss4it\Repos\APIs\LogixSalesApi\bin\Release\net7.0\Microsoft.Identity.Client.dll
+D:\ss4it\Repos\APIs\LogixSalesApi\bin\Release\net7.0\Microsoft.IdentityModel.Abstractions.dll
+D:\ss4it\Repos\APIs\LogixSalesApi\bin\Release\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\ss4it\Repos\APIs\LogixSalesApi\bin\Release\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\ss4it\Repos\APIs\LogixSalesApi\bin\Release\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\ss4it\Repos\APIs\LogixSalesApi\bin\Release\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\ss4it\Repos\APIs\LogixSalesApi\bin\Release\net7.0\Microsoft.IdentityModel.Tokens.dll
+D:\ss4it\Repos\APIs\LogixSalesApi\bin\Release\net7.0\Microsoft.OpenApi.dll
+D:\ss4it\Repos\APIs\LogixSalesApi\bin\Release\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\ss4it\Repos\APIs\LogixSalesApi\bin\Release\net7.0\Newtonsoft.Json.dll
+D:\ss4it\Repos\APIs\LogixSalesApi\bin\Release\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\ss4it\Repos\APIs\LogixSalesApi\bin\Release\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\ss4it\Repos\APIs\LogixSalesApi\bin\Release\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\ss4it\Repos\APIs\LogixSalesApi\bin\Release\net7.0\System.Configuration.ConfigurationManager.dll
+D:\ss4it\Repos\APIs\LogixSalesApi\bin\Release\net7.0\System.Drawing.Common.dll
+D:\ss4it\Repos\APIs\LogixSalesApi\bin\Release\net7.0\System.IdentityModel.Tokens.Jwt.dll
+D:\ss4it\Repos\APIs\LogixSalesApi\bin\Release\net7.0\System.Runtime.Caching.dll
+D:\ss4it\Repos\APIs\LogixSalesApi\bin\Release\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\ss4it\Repos\APIs\LogixSalesApi\bin\Release\net7.0\System.Security.Permissions.dll
+D:\ss4it\Repos\APIs\LogixSalesApi\bin\Release\net7.0\System.Windows.Extensions.dll
+D:\ss4it\Repos\APIs\LogixSalesApi\bin\Release\net7.0\TextToQRImagePackage.dll
+D:\ss4it\Repos\APIs\LogixSalesApi\bin\Release\net7.0\zxing.dll
+D:\ss4it\Repos\APIs\LogixSalesApi\bin\Release\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\ss4it\Repos\APIs\LogixSalesApi\bin\Release\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\ss4it\Repos\APIs\LogixSalesApi\bin\Release\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ss4it\Repos\APIs\LogixSalesApi\bin\Release\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ss4it\Repos\APIs\LogixSalesApi\bin\Release\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ss4it\Repos\APIs\LogixSalesApi\bin\Release\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ss4it\Repos\APIs\LogixSalesApi\bin\Release\net7.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\ss4it\Repos\APIs\LogixSalesApi\bin\Release\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\ss4it\Repos\APIs\LogixSalesApi\bin\Release\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\ss4it\Repos\APIs\LogixSalesApi\bin\Release\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\ss4it\Repos\APIs\LogixSalesApi\obj\Release\net7.0\LogixApi-v04.csproj.AssemblyReference.cache
+D:\ss4it\Repos\APIs\LogixSalesApi\obj\Release\net7.0\LogixApi-v04.GeneratedMSBuildEditorConfig.editorconfig
+D:\ss4it\Repos\APIs\LogixSalesApi\obj\Release\net7.0\LogixApi-v04.AssemblyInfoInputs.cache
+D:\ss4it\Repos\APIs\LogixSalesApi\obj\Release\net7.0\LogixApi-v04.AssemblyInfo.cs
+D:\ss4it\Repos\APIs\LogixSalesApi\obj\Release\net7.0\LogixApi-v04.csproj.CoreCompileInputs.cache
+D:\ss4it\Repos\APIs\LogixSalesApi\obj\Release\net7.0\LogixApi-v04.MvcApplicationPartsAssemblyInfo.cs
+D:\ss4it\Repos\APIs\LogixSalesApi\obj\Release\net7.0\LogixApi-v04.MvcApplicationPartsAssemblyInfo.cache
+D:\ss4it\Repos\APIs\LogixSalesApi\obj\Release\net7.0\LogixApi-v04.sourcelink.json
+D:\ss4it\Repos\APIs\LogixSalesApi\obj\Release\net7.0\scopedcss\bundle\LogixApi-v04.styles.css
+D:\ss4it\Repos\APIs\LogixSalesApi\obj\Release\net7.0\staticwebassets.build.json
+D:\ss4it\Repos\APIs\LogixSalesApi\obj\Release\net7.0\staticwebassets.development.json
+D:\ss4it\Repos\APIs\LogixSalesApi\obj\Release\net7.0\staticwebassets.build.endpoints.json
+D:\ss4it\Repos\APIs\LogixSalesApi\obj\Release\net7.0\staticwebassets\msbuild.LogixApi-v04.Microsoft.AspNetCore.StaticWebAssets.props
+D:\ss4it\Repos\APIs\LogixSalesApi\obj\Release\net7.0\staticwebassets\msbuild.LogixApi-v04.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\ss4it\Repos\APIs\LogixSalesApi\obj\Release\net7.0\staticwebassets\msbuild.build.LogixApi-v04.props
+D:\ss4it\Repos\APIs\LogixSalesApi\obj\Release\net7.0\staticwebassets\msbuild.buildMultiTargeting.LogixApi-v04.props
+D:\ss4it\Repos\APIs\LogixSalesApi\obj\Release\net7.0\staticwebassets\msbuild.buildTransitive.LogixApi-v04.props
+D:\ss4it\Repos\APIs\LogixSalesApi\obj\Release\net7.0\staticwebassets.pack.json
+D:\ss4it\Repos\APIs\LogixSalesApi\obj\Release\net7.0\staticwebassets.upToDateCheck.txt
+D:\ss4it\Repos\APIs\LogixSalesApi\obj\Release\net7.0\LogixApi.68F7A75A.Up2Date
+D:\ss4it\Repos\APIs\LogixSalesApi\obj\Release\net7.0\LogixApi-v04.dll
+D:\ss4it\Repos\APIs\LogixSalesApi\obj\Release\net7.0\refint\LogixApi-v04.dll
+D:\ss4it\Repos\APIs\LogixSalesApi\obj\Release\net7.0\LogixApi-v04.pdb
+D:\ss4it\Repos\APIs\LogixSalesApi\obj\Release\net7.0\LogixApi-v04.genruntimeconfig.cache
+D:\ss4it\Repos\APIs\LogixSalesApi\obj\Release\net7.0\ref\LogixApi-v04.dll

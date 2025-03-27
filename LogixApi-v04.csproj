@@ -8,6 +8,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Controllers\Hr\**" />
+    <Content Remove="Controllers\Hr\**" />
+    <EmbeddedResource Remove="Controllers\Hr\**" />
+    <None Remove="Controllers\Hr\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Autofac" Version="7.0.1" />
     <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="8.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.10" />
@@ -28,7 +35,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\Hr\" />
     <Folder Include="EntityConfigs\Hr\" />
     <Folder Include="IRepositories\Hr\" />
     <Folder Include="Models\Hr\" />

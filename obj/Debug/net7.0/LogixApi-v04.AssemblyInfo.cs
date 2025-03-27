@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LogixApi-v04")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+873dd275727e4bdef16af40feec3f7247df434f8")]
 [assembly: System.Reflection.AssemblyProductAttribute("LogixApi-v04")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LogixApi-v04")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

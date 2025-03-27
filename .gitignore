@@ -1,0 +1,60 @@
+# .NET Core
+.vs/*
+.vscode/
+.idea/
+obj/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Dd]ist/
+[Dd]istPublic/
+[Dd]ebug/
+[Dd]ebugTests/
+[Dd]ebugOutput/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# .NET Core and ASP.NET
+bin/
+obj/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# User-specific files
+appsettings.Development.json
+appsettings.Local.json
+appsettings.json
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows Installer files (older)
+*.vsix
+
+# Windows System Files
+Thumbs.db
+ehthumbs.db
+
+# ASP.NET Core Secrets (if using secrets manager)
+secrets.json
+
+# Logs
+logs/
+
+# npm packages
+node_modules/
+
+# ASP.NET Core publish output
+publish/

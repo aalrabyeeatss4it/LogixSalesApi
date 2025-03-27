@@ -88,8 +88,8 @@ namespace LogixApi_v02.DbContexts
             modelBuilder.ApplyConfiguration(new SysPropertyValuesVwConfig());
 
             //=========================== Sales==================================================
-            modelBuilder.ApplyConfiguration(new SalPosCloseCashConfig());
-            modelBuilder.ApplyConfiguration(new SalTransactionsVwConfig());
+             modelBuilder.ApplyConfiguration(new SalPosCloseCashConfig());
+             modelBuilder.ApplyConfiguration(new SalTransactionsVwConfig());
              modelBuilder.ApplyConfiguration(new AccFinancialYearConfig());
              modelBuilder.ApplyConfiguration(new SalTransactionsProductsVwConfig());
              modelBuilder.ApplyConfiguration(new SalTransactionsProductConfig());
